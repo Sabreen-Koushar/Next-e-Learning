@@ -1,0 +1,337 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+  z-index: 4 !important;
+}
+
+.Navbar {
+  background-color: #49BBBD !important;
+}
+.Navbar .login {
+  transition: all 0.3s ease-in-out;
+}
+.Navbar .login:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3) !important;
+  transition: all 0.3s ease-in-out;
+}
+.Navbar .signup {
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.Navbar .signup:hover {
+  color: #000 !important;
+  background: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+.Navbar .offcanvas {
+  background-color: #49BBBD !important;
+}
+.Navbar .login-scroll {
+  box-sizing: border-box !important;
+  background-color: #49BBBD !important;
+  color: #fff !important;
+}
+.Navbar .login-scroll:hover {
+  color: #000 !important;
+  background: #fff !important;
+  border: 2px solid #49BBBD !important;
+  transition: all 0.3s ease-in-out;
+}
+.Navbar .signup-scroll {
+  border: 2px solid #49BBBD !important;
+  color: #000 !important;
+}
+.Navbar .signup-scroll:hover {
+  color: #fff !important;
+  background: #49BBBD !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-light {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home .hero-section {
+  background-color: #49BBBD !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+}
+.home .hero-section h1 {
+  font-size: 50px !important;
+}
+.home .hero-section .join {
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.home .hero-section .join:hover {
+  color: #000 !important;
+  background: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+.home .hero-section i {
+  font-size: 50px !important;
+  transition: all 0.3s ease-in-out;
+}
+.home .hero-section i:hover {
+  color: #000 !important;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.home .what-nextGenEdu .card {
+  position: relative;
+  height: 40vh !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .what-nextGenEdu .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 7, 30, 0.5);
+  opacity: 0.5;
+  z-index: 1;
+}
+.home .what-nextGenEdu .col-lg-5:nth-child(1) .card {
+  background-image: url("../images/instructor-img.png");
+}
+.home .what-nextGenEdu .col-lg-5:nth-child(1) .card button:hover {
+  background-color: rgba(35, 189, 238, 0.9) !important;
+  border: 2px solid rgba(35, 189, 238, 0.9) !important;
+}
+.home .what-nextGenEdu .col-lg-5:nth-child(2) .card {
+  background-image: url("../images/for-student.png");
+}
+.home .what-nextGenEdu .col-lg-5:nth-child(2) .card button {
+  background-color: rgba(35, 189, 238, 0.9) !important;
+  border: 0px !important;
+}
+.home .what-nextGenEdu .col-lg-5:nth-child(2) .card button:hover {
+  border: 2px solid #fff !important;
+  background-color: transparent !important;
+}
+.home .green-circle {
+  height: 50px !important;
+  width: 50px !important;
+  z-index: -1;
+  background-color: #33EFA0 !important;
+  left: 5px;
+  top: 13px;
+}
+.home .green-small-circle {
+  height: 20px !important;
+  width: 20px !important;
+  z-index: -1;
+  background-color: #33EFA0 !important;
+  top: 26%;
+  right: 50px;
+}
+.home .blue-box {
+  height: 100px !important;
+  width: 100px !important;
+  background-color: #23BDEE !important;
+  z-index: -1;
+  top: 30px !important;
+  left: 25px !important;
+}
+.home .green-box {
+  height: 100px !important;
+  width: 100px !important;
+  background-color: #33EFA0 !important;
+  z-index: -1;
+  right: 20px !important;
+  bottom: 120px !important;
+}
+.home .play {
+  top: 31%;
+  z-index: 2;
+  left: 45%;
+  font-size: 70px !important;
+  transition: all 0.3s ease-in-out;
+}
+.home .play:hover {
+  transition: all 0.3s ease-in-out;
+  color: #49BBBD !important;
+  cursor: pointer;
+}
+.home .icon-item {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #FBFBFB !important;
+  box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+.home .assessmentImg {
+  scale: 0.8;
+}
+.home .tools-for-teacher-img {
+  scale: 0.8;
+}
+
+.course-item .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.course-item .card .instructorImg {
+  height: 35px !important;
+  width: 35px !important;
+}
+.course-item .card button {
+  background-color: #49BBBD !important;
+}
+
+.courseCategoryItem .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.courseCategoryItem .card .icon {
+  width: 60px !important;
+  height: 60px !important;
+}
+.courseCategoryItem .card .upper-icon {
+  width: 60px !important;
+  height: 60px !important;
+  top: -30px !important;
+}
+
+.login .login-Image {
+  scale: 0.9 !important;
+}
+.login .login-tab {
+  background-color: rgba(73, 187, 189, 0.6) !important;
+}
+.login .login-btn {
+  background-color: #49BBBD !important;
+}
+.login .form-input {
+  height: 40px !important;
+  border: 2px solid rgba(73, 187, 189, 0.6);
+}
+
+.courses .progressCourseRow {
+  background-color: rgba(157, 204, 255, 0.2) !important;
+}
+.courses .swiper-wrapper {
+  padding-bottom: 40px !important;
+}
+.courses .swiper-pagination-horizontal {
+  margin-top: 80px !important;
+}
+.courses .learningnow .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.courses .learningnow button {
+  background-color: #49BBBD !important;
+}
+
+.progressCourseItem .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.blog .blog-hero {
+  background-color: rgba(157, 204, 255, 0.2) !important;
+}
+.blog .blog-hero h2 {
+  color: #2F327D !important;
+}
+.blog .blog-hero button {
+  background-color: #49BBBD !important;
+}
+.blog .blog-list .blog-list-item {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 30vh !important;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .blog-list .blog-list-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 7, 30, 0.5);
+  opacity: 0.5;
+  z-index: 1;
+}
+.blog .blog-list .blog-list-item .blog-list-item-title {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  z-index: 2 !important;
+  bottom: 20px !important;
+}
+.blog .realtedBlogRow {
+  background-color: rgba(157, 204, 255, 0.2) !important;
+}
+.blog .realtedBlogRow .swiper-wrapper {
+  padding-bottom: 40px !important;
+}
+.blog .realtedBlogRow .swiper-pagination-horizontal {
+  margin-top: 80px !important;
+}
+
+.relatedBlogItem .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.forum .form-input {
+  height: 40px !important;
+  border: 2px solid rgba(73, 187, 189, 0.6);
+}
+.forum .form-input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+.forum .search {
+  color: #23BDEE !important;
+  border: 2px solid rgba(73, 187, 189, 0.6);
+}
+.forum .ask-question {
+  background-color: #49BBBD !important;
+}
+
+.forumQuestion .badge-items {
+  background-color: rgba(213, 229, 233, 0.8352941176) !important;
+}
+.forumQuestion .vote {
+  font-size: 12px !important;
+}
+
+.aboutUs .hero {
+  background-image: url(../images/about-us-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh !important;
+}
+.aboutUs .icon {
+  width: 70px !important;
+  height: 70px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.footer {
+  background-color: #252641 !important;
+}
+.footer img {
+  height: 60px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
